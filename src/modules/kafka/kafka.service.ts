@@ -38,7 +38,7 @@ export class KafkaServiceImpl implements KafkaService, OnModuleInit {
     try {
       await topicCreater.createTopics({
         topics: [
-          { topic: 'test-topic', numPartitions: 3, replicationFactor: 3 },
+          { topic: 'testTopic', numPartitions: 3, replicationFactor: 3 },
         ],
       });
     } catch (err) {

@@ -8,6 +8,9 @@ module.exports = {
   },
 
   kafka: {
+    // for INTERNAL
     brokers: '["kafka-1:19092","kafka-2:19093","kafka-3:19094"]',
+    // for EXTERNAL
+    // brokers: '["localhost:9092","localhost:9093","localhost:9094"]',
   },
 };
